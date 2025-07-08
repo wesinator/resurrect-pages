@@ -1,17 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "Resurrect Pages",
-  "description": "Resurrect dead pages, by finding their ghosts.",
-  "version": "8",
-  "homepage_url": "https://github.com/arantius/resurrect-pages",
-
-  "applications": {
+  "name": "Anastasis",
+  "description": "Open archive versions of links. For checking dead links or viewing other versions.",
+  "version": "1.0",
+  "homepage_url": "https://github.com/wesinator/resurrect-pages/tree/anastasis",
+  "browser_specific_settings": {
     "gecko": {
-      "id": "{0c8fbd76-bdeb-4c52-9b24-d587ce7b9dc3}",
-      "strict_min_version": "57.0"
+      "id": "anastasis@wesinator.github.io"
     }
   },
-
   "background": {
     "scripts": [
       "common.js",
@@ -20,8 +17,8 @@
   },
 
   "browser_action": {
-    "default_icon": "icons/page-32.png",
-    "default_title": "Resurrect Pages",
+    "default_icon": "icons/action_icon_32.png",
+    "default_title": "Anastasis",
     "default_popup": "popup.htm"
   },
 
@@ -34,8 +31,9 @@
   },
 
   "icons": {
-    "16": "icons/page-16.png",
-    "32": "icons/page-32.png"
+    "16": "icons/action_icon_16.png",
+    "32": "icons/action_icon_32.png",
+    "64": "icons/action_icon_64.png"
   },
 
   "permissions": [
